@@ -15,10 +15,11 @@ def web():
     if wwwInput == "exit":
         print("goodbye")
         time.sleep(1)
-        os.startfile('home.py')
+        os.startfile(r'kernel\home.py')
     
     if wwwInput != "exit":
         openBrowser()
+
 
 
 def openBrowser():

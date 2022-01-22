@@ -12,3 +12,5 @@ with open(r'system\User\password.EBI', 'r+') as B:
 
 with open(r'system\boot\bootloader.EBI', 'r+') as C:
     C.writelines('01')
+
+os.startfile('EBI.py')

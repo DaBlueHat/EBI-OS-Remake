@@ -3,7 +3,7 @@ import os
 
 time.sleep(0.555)
 
-with open(r'system\User\username.EBI') as A:
+with open(r'system\User\password.EBI') as A:
     rightpass = A.read()
     unlock = input("Enter password: ")
 

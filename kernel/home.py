@@ -19,6 +19,7 @@ def kernel():
         print("snake - snake game")
         gameInput = input("Enter the game a choice: ")
 
+
         if gameInput == "snake":
             os.startfile(r'kernel\snake.py')
             kernel()

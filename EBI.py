@@ -5,7 +5,7 @@ time.sleep(0.555)
 
 def bootloaderGraphical():
     print("----------------EBI BOOT MENU----------------")
-    print("EBI OS VERSION 0.1")
+    print("EBI OS VERSION 1.2")
     os.system("pause")
     bootloaderCode()
 

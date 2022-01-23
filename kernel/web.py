@@ -6,6 +6,7 @@ def web():
     global wwwlink
     print("--------------------------------WEB BROWSER--------------------------------")
     print("type exit to exit the application and return to the kernel")
+    print("type search to open the search")
     global wwwInput
     wwwInput = input("LINK : ")
     wwwlink = wwwInput
@@ -16,9 +17,14 @@ def web():
         print("goodbye")
         time.sleep(1)
         os.startfile(r'kernel\home.py')
-    
+
+    if wwwInput == "search":
+        os.startfile(r'kernel\search.py')
+
+
     if wwwInput != "exit":
-        openBrowser()
+        if wwwInput != "search":
+            openBrowser()
 
 
 
